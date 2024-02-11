@@ -27,7 +27,7 @@ services:
         protocol: tcp
       # HTTPS
       - target: 443
-        published: ${HTTPS_PORT:-4443}
+        published: ${HTTPS_PORT:-443}
         protocol: tcp
       # HTTP/3
       - target: 443
